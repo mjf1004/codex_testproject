@@ -1,0 +1,40 @@
+.superpowers/
+.agents/
+.codex/
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and cache artifacts
+.cache/
+.parcel-cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+playwright-report/
+test-results/
